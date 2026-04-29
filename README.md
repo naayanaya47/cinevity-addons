@@ -2,9 +2,9 @@
 
 This repository contains the community-driven discovery hub for Cinevity. 
 
-## 🚀 The Premium Hub
-Once deployed to Vercel, use this URL in Cinevity:
-`https://YOUR-PROJECT.vercel.app/manifest.json`
+## 🚀 The Premium Movies Hub
+Use this URL in Cinevity:
+`https://cinevity-addons.vercel.app/manifest.json`
 
 ---
 
@@ -12,7 +12,7 @@ Once deployed to Vercel, use this URL in Cinevity:
 
 Copy and paste these URLs into Cinevity to expand your library:
 
-### 🎬 Official Metadata (Series & Movies)
+### 🎬 Official Metadata (Series & Movies, this one is baked in, or... should be...)
 - **Cinemeta (Default)**: `https://v3-cinemeta.strem.io/manifest.json`
 - **WatchHub (Rent/Buy)**: `https://watchhub.strem.io/manifest.json`
 - **TMDB Addon**: `https://167d8a79ca9d-stremio-tmdb-addon.baby-beamup.club/manifest.json`
@@ -29,4 +29,4 @@ Copy and paste these URLs into Cinevity to expand your library:
 ---
 
 ## Legal Disclaimer
-Cinevity is a neutral media player. We do not host or verify any of the content provided by these third-party addons. Use at your own risk.
+We do not host or verify any of the content provided by these third-party addons. Some may work, some may not, use at your own risk 
