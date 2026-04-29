@@ -1,6 +1,6 @@
 # Cinevity Community Addons
 
-This repository contains the community-driven discovery hub for Cinevity. 
+This repository contains the community-driven discovery hub for Cinevity. Cinevity is an entertainment hub that centralizes info, metadata and where to watch. It is addon-centric, meaning that the platform itself was build around it and all visualization of posters, titles, descriptions, ratings, etc. Therefore, users can also install their own addons and this repo aims to provide the space for this growth.
 
 ## 🚀 The Premium Movies Hub
 Use this URL in Cinevity:
@@ -25,6 +25,13 @@ Copy and paste these URLs into Cinevity to expand your library:
 - **Superflix**: `https://superflix.site/manifest.json`
 - **Torrentio (Decoy/P2P)**: `https://torrentio.strem.fun/manifest.json`
 - **NoTorrent**: `https://notorrent-stremio.xyz/manifest.json`
+
+---
+
+## 🛠️ Technical Notes & Known Issues
+
+- **CORS Proxies**: To bypass browser security with addons and still have security features, Cinevity uses a private Cloudflare Worker proxy. Some 3rd-party addons might block these proxies, resulting in `530` or `CORS` errors. This is a known limitation of web-based streaming hubs.
+- **Connectivity**: If an addon fails to load, try again later or check if the source website is down, replace it in here if you can. Not all addons will provide playable streams at all times
 
 ---
 
