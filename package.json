@@ -1,0 +1,9 @@
+{
+  "name": "cinevity-addons",
+  "version": "1.0.0",
+  "description": "Cinevity Community Addons",
+  "main": "api/index.js",
+  "dependencies": {
+    "@vercel/node": "latest"
+  }
+}
